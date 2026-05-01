@@ -1,4 +1,4 @@
-import { Search, TicketPercent, ShieldCheck } from 'lucide-react'
+import { Search, TicketPercent } from 'lucide-react'
 import avatarImg from '../assets/avatar.png'
 
 const MagaluLogo = () => (
@@ -164,7 +164,7 @@ export default function LandingPage() {
 
         {/* WhatsApp CTA */}
         <a
-          href="#"
+          href="https://chat.whatsapp.com/JLCMoHd1eFO370uEbpWwjJ"
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => (window as any).fbq?.('track', 'Lead')}
@@ -183,16 +183,6 @@ export default function LandingPage() {
             <WhatsAppIcon />
           </span>
         </a>
-
-        {/* Footer trust badge */}
-        <div className="mt-6 flex items-center justify-center gap-2 text-xs font-semibold tracking-wider">
-          <span style={{ color: 'var(--brand-wine)' }}>É CONFIÁVEL?</span>
-          <ShieldCheck
-            className="h-4 w-4"
-            aria-hidden="true"
-            style={{ color: 'var(--brand-whatsapp)' }}
-          />
-        </div>
 
       </div>
     </main>
